@@ -16,3 +16,5 @@
 .prettierignore
 ./node_modules
 node_modules
+./frontendmentor-guide
+./src-pwa

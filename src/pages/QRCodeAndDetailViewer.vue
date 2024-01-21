@@ -21,8 +21,14 @@
 // can be a Layout, a Page or your own
 // component used throughout the app.
 // import { defineComponent } from 'vue'
-export default {
-}
+import { defineComponent } from 'vue'
+import { QImg } from 'quasar' // Import QImg from Quasar
+
+export default defineComponent({
+    components: {
+        QImg, // Register QImg component
+    },
+})
 </script>
   
 <style>
@@ -54,7 +60,7 @@ h5 {
     .card-container {
         background-color: hsl(212, 45%, 89%);
         padding: 100px;
-        margin-top: 100px;
+        /* margin-top: 100px; */
     }
 }
 
